@@ -29,4 +29,4 @@ If you are using Windows 8.1, there is currently a [bug which causes a BSOD](htt
 1. Edit the `Vagrantfile` to point to a different box by editing `config.vm.box` and `config.vm.box_url`; or
 1. Modify the default `box.ovf` for the `precise64` box by
     1. Pre-install the box by running `vagrant box add precise64 http://files.vagrantup.com/precise64.box`
-    2. Replace `C:\Users\bretc_000\.vagrant.d\boxes\precise64\virtualbox\box.ovf` with the 
+    2. Replace `C:\Users\[YOUR_USER_NAME]\.vagrant.d\boxes\precise64\virtualbox\box.ovf` with the `box.ovf` found in the `/compatibility` directory of this repository.
