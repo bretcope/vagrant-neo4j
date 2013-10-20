@@ -1,4 +1,4 @@
-# Vagrant Neo4j 2
+# Vagrant Neo4j
 
 A [vagrant](http://vagrantup.com) configuration to run Neo4j in a VirtualBox.
 
