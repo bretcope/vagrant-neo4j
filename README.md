@@ -24,9 +24,4 @@ Running `vagrant up` will download and install:
 
 ## Windows 8.1
 
-If you are using Windows 8.1, there is currently a [bug which causes a BSOD](https://forums.virtualbox.org/viewtopic.php?f=6&t=57893) when running a VirtualBox with more than one virtual CPU. The box used in this Vagrantfile, by default, uses 2 virtual CPU's. Therefore, you have two options:
-
-1. Edit the `Vagrantfile` to point to a different box by editing `config.vm.box` and `config.vm.box_url`; or
-1. Modify the default `box.ovf` for the `precise64` box by
-    1. Pre-install the box by running `vagrant box add precise64 http://files.vagrantup.com/precise64.box`
-    2. Replace `C:\Users\[YOUR_USER_NAME]\.vagrant.d\boxes\precise64\virtualbox\box.ovf` with the `box.ovf` found in the `/compatibility` directory of this repository.
+If you are using Windows 8.1, there is currently a [bug which causes a BSOD](https://forums.virtualbox.org/viewtopic.php?f=6&t=57893) when running a VirtualBox with more than one virtual CPU. The box used in this Vagrantfile, by default, uses 2 virtual CPU's. Until VirtualBox 4.3.1 is officially released, there is a test build which fixes this problem and can be [downloaded here](https://forums.virtualbox.org/viewtopic.php?f=6&t=57893&sid=80db4db5dc27ad05259e754bc766a511&start=15#p269232).
