@@ -1,0 +1,18 @@
+{
+  "name": "vagrant-neo4j",
+  "version": "0.0.1",
+  "author": "Bret Copeland <bret@atlantisflight.org>",
+  "description": "A simple Vagrant script for setting up a Neo4j VM.",
+  "scripts": {
+    "start": "vagrant up",
+    "stop": "vagrant destroy -f"
+  },
+  "keywords": [
+    "neo4j",
+    "vagrant",
+    "virtualbox",
+    "vm"
+  ],
+  "analyze": false,
+  "license": "MIT"
+}

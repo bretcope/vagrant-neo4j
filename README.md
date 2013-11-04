@@ -22,6 +22,18 @@ Running `vagrant up` will download and install:
 * [VirtualBox](https://www.virtualbox.org/) (version 4.2 or later)
 * [Vagrant](http://www.vagrantup.com/)
 
+## npm
+
+If you would prefer to install using npm:
+
+```
+npm install vagrant-neo4j
+```
+
+The above [requirements](#requirements) still must be installed separately. 
+
+`npm start` and `npm stop` are aliases of `vagrant up` and `vagrant destroy -f` respectively. Though, this is true whether installed via npm or not.
+
 ## Windows 8.1
 
-If you are using Windows 8.1, there is currently a [bug which causes a BSOD](https://forums.virtualbox.org/viewtopic.php?f=6&t=57893) when running a VirtualBox with more than one virtual CPU. The box used in this Vagrantfile, by default, uses 2 virtual CPU's. Until VirtualBox 4.3.1 is officially released, there is a test build which fixes this problem and can be [downloaded here](https://forums.virtualbox.org/viewtopic.php?f=6&t=57893&sid=80db4db5dc27ad05259e754bc766a511&start=15#p269232).
+If you are using Windows 8.1, make sure to you are using [VirtualBox 4.3.2](https://www.virtualbox.org/wiki/Downloads) or later. There were compatibility problems in older versions which caused BSOD.
