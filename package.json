@@ -1,6 +1,6 @@
 {
   "name": "vagrant-neo4j",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "author": "Bret Copeland <bret@atlantisflight.org>",
   "description": "A simple Vagrant script for setting up a Neo4j VM.",
   "scripts": {
