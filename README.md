@@ -13,7 +13,7 @@ Running `vagrant up` will download and install:
 * [Oracle Java](http://www.java.com/) JRE `1.7.0u45`
 > By downloading Java you acknowledge that you have read and accepted the terms of the [end user license agreement](http://www.oracle.com/technetwork/java/javase/terms/license/)
 
-* [Neo4j](http://www.neo4j.org/) Community Edition `2.0.0-M06`
+* [Neo4j](http://www.neo4j.org/) Community Edition `2.2.5`
 > (A)GPLv3 License<br>
 > Port 7474 is forwarded from the host to the guest for accessing Neo4j from the host machine.
 
